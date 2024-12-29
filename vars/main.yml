@@ -1,0 +1,8 @@
+#SPDX-License-Identifier: MIT-0
+---
+# vars file for roles/apache-deployment-role
+apache_root_document: /var/www/html
+apache_server_name: mywebsite.local
+allowed_ips:
+  - 172.21.182.181
+
